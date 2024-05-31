@@ -1,0 +1,41 @@
+{
+  "name": "pico-ctrl-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "pico-ctrl": "file:../pico-ctrl"
+  },
+  "description": "A test app for the pico-ctrl module",
+  "main": "www/bin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fingerskier/pico-ctrl-test.git"
+  },
+  "keywords": [
+    "node",
+    "nodjs",
+    "javascript",
+    "raspberry",
+    "pi",
+    "pico",
+    "w"
+  ],
+  "author": "fingerskier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fingerskier/pico-ctrl-test/issues"
+  },
+  "homepage": "https://github.com/fingerskier/pico-ctrl-test#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}

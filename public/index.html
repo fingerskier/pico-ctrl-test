@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pico-ctrl</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>pico-ctrl test page</h1>
+    
+    <!-- this form send the command to restart the pico in FS mode -->
+    <form action="/restart" method="GET">
+      <p>Hold the <em>boot</em> button and press this button to restart in FS mode:</p>
+      <button type="submit">Restart</button>
+    </form>
+
+    <!-- this form tries to connect to a pico -->
+    <form action="/connect" method="GET">
+      <p>Connect to a pico:</p>
+      <button type="submit">Connect</button>
+</body>
+</html>
